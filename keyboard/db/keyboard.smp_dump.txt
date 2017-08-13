@@ -1,0 +1,16 @@
+
+State Machine - |keyboard|state
+Name state.rb_done state.ra_done state.la_done state.ra_releasing_2 state.ra_releasing_1 state.la_releasing_2 state.la_releasing_1 state.rb_releasing state.rb state.ra state.la state.arrow state.delay 
+state.delay 0 0 0 0 0 0 0 0 0 0 0 0 0 
+state.arrow 0 0 0 0 0 0 0 0 0 0 0 1 1 
+state.la 0 0 0 0 0 0 0 0 0 0 1 0 1 
+state.ra 0 0 0 0 0 0 0 0 0 1 0 0 1 
+state.rb 0 0 0 0 0 0 0 0 1 0 0 0 1 
+state.rb_releasing 0 0 0 0 0 0 0 1 0 0 0 0 1 
+state.la_releasing_1 0 0 0 0 0 0 1 0 0 0 0 0 1 
+state.la_releasing_2 0 0 0 0 0 1 0 0 0 0 0 0 1 
+state.ra_releasing_1 0 0 0 0 1 0 0 0 0 0 0 0 1 
+state.ra_releasing_2 0 0 0 1 0 0 0 0 0 0 0 0 1 
+state.la_done 0 0 1 0 0 0 0 0 0 0 0 0 1 
+state.ra_done 0 1 0 0 0 0 0 0 0 0 0 0 1 
+state.rb_done 1 0 0 0 0 0 0 0 0 0 0 0 1 

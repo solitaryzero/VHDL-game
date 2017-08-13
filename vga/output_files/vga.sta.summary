@@ -1,0 +1,93 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow Model Setup 'vga_rom:u1|clk'
+Slack : -38.049
+TNS   : -1773.757
+
+Type  : Slow Model Setup 'CLK_MAIN'
+Slack : -4.227
+TNS   : -9432.906
+
+Type  : Slow Model Setup 'vga_rom:u1|clk_50'
+Slack : 1.091
+TNS   : 0.000
+
+Type  : Slow Model Hold 'CLK_MAIN'
+Slack : -3.169
+TNS   : -3.169
+
+Type  : Slow Model Hold 'vga_rom:u1|clk_50'
+Slack : -0.857
+TNS   : -0.857
+
+Type  : Slow Model Hold 'vga_rom:u1|clk'
+Slack : 0.499
+TNS   : 0.000
+
+Type  : Slow Model Recovery 'vga_rom:u1|clk'
+Slack : -4.314
+TNS   : -36.287
+
+Type  : Slow Model Removal 'vga_rom:u1|clk'
+Slack : 3.020
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'CLK_MAIN'
+Slack : -2.277
+TNS   : -14716.583
+
+Type  : Slow Model Minimum Pulse Width 'vga_rom:u1|clk'
+Slack : -0.742
+TNS   : -207.760
+
+Type  : Slow Model Minimum Pulse Width 'vga_rom:u1|clk_50'
+Slack : -0.742
+TNS   : -1.484
+
+Type  : Fast Model Setup 'vga_rom:u1|clk'
+Slack : -11.022
+TNS   : -477.787
+
+Type  : Fast Model Setup 'CLK_MAIN'
+Slack : -0.979
+TNS   : -1041.757
+
+Type  : Fast Model Setup 'vga_rom:u1|clk_50'
+Slack : 0.773
+TNS   : 0.000
+
+Type  : Fast Model Hold 'CLK_MAIN'
+Slack : -1.748
+TNS   : -1.748
+
+Type  : Fast Model Hold 'vga_rom:u1|clk_50'
+Slack : -0.393
+TNS   : -0.393
+
+Type  : Fast Model Hold 'vga_rom:u1|clk'
+Slack : 0.215
+TNS   : 0.000
+
+Type  : Fast Model Recovery 'vga_rom:u1|clk'
+Slack : -0.824
+TNS   : -6.647
+
+Type  : Fast Model Removal 'vga_rom:u1|clk'
+Slack : 1.070
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'CLK_MAIN'
+Slack : -1.423
+TNS   : -9199.038
+
+Type  : Fast Model Minimum Pulse Width 'vga_rom:u1|clk'
+Slack : -0.500
+TNS   : -140.000
+
+Type  : Fast Model Minimum Pulse Width 'vga_rom:u1|clk_50'
+Slack : -0.500
+TNS   : -1.000
+
+------------------------------------------------------------

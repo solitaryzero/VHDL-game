@@ -1,0 +1,14 @@
+library ieee;
+use ieee.std_logic_1164.all;
+USE ieee.std_logic_unsigned.all;
+use ieee.std_logic_arith.all;
+
+entity keyboard is
+port (
+	CLK_MAIN, CLK_11, CLK_25, CLK_100, RST: in std_logic;
+	PS_CODE: in std_logic_vector(7 downto 0);
+	PS_OE: in std_logic;
+	R_KEY, L_ARROW, R_ARROW: out std_logic; -- 三个键输出使能，每次按下之后只在CLK_MAIN的一个周期内置1
+	) ;
+end keyboard ;
+
